@@ -1,0 +1,201 @@
+      *{margin: 0;
+        padding: 0%;
+         font-family: 'Inika';
+       }
+        .back-ground{
+            background-image: url('home2.jpg');  
+             opacity: 0.9;
+             height: 100vh;
+            background-position: start;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .back-ground2{
+             background-image: url('About.jpg');
+            opacity: 0.98;
+             height: 100vh;
+            background-position: start;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .back-ground3{
+             background-image: url('Skills.jpg');  
+             height: 100vh;
+            background-position: start;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .back-ground4{
+             background-image: url('4.jpg');  
+             height: 100vh;
+            background-position: start;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .back-ground5{
+             background-image: url('5.jpg');  
+             height: 100vh;
+            background-position: start;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       .navigate{
+            display: flex;
+            justify-content: space-between;
+            width: 1410px;
+            height:50px;
+            padding: 10px 20px 15px 90px;
+            background-color: #C0E0E0;
+            border-bottom: 2px solid #000D16;
+        }
+        .Row{
+           display:flex; 
+           justify-content: space-around;
+           width: 600px;
+        }
+        .A{
+            color:#000D16;
+            width:90px;
+            
+            margin: 10px 0px ;
+            padding: 1px;
+            font-size: 25px;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+    
+        .A1{
+            text-underline-offset: -2000px; 
+            color: rgb(0, 0, 0); 
+        }
+        .A1:hover{
+            text-underline-offset: 1px; 
+        }
+        .logo{
+            color: #000D16;
+             margin-top: 3px;
+        }
+        .intro{
+           
+            width:600px;
+            height:400px;
+            top:120px;
+            left:660px;
+            position: relative;
+        }
+        .learnmore{
+            background-color: white;
+            width:140px;
+            margin:150px 0px 0px 5px;
+            padding: 10px 10px;
+            text-align: center;
+            font-size: 20px;
+            color: #000D16;
+            border: 2px solid #000D16;
+            border-radius: 20px;
+
+        }
+        .aboutme{
+            font-size: 60px;
+            width:276px;
+            border-bottom: 2px solid #000D16;
+            color: #000D16;
+            position: relative;
+            top:90px;
+            left:100px;
+        }
+        .about1{
+            width:650px;
+            font-size: 23px;
+            position:relative;
+            top:170px;
+            left:170px;
+            padding-bottom: 20px;
+            color: #000D16;
+
+        }
+        .circle1{
+            width:400px;
+            height: 400px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top:910px;
+            left:930px;
+        } 
+        .circle2{
+            width:100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            left:1290px;
+           bottom:160px;
+        }
+         .circle3{
+            width:50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            top:170px;
+            left:960px;
+        }
+        .illu1{
+            width:500px;
+            height: 500px;
+            position: relative;
+            bottom: 320px;
+            left:890px;
+        }
+        .myskill{
+              background-color: white;
+            width:140px;
+            position: relative;
+            bottom:470px;
+            left:170px;
+            text-align: center;
+            padding:10px 0px;
+            font-size: 20px;
+            color: #000D16;
+            border: 2px solid #000D16;
+            border-radius: 20px;
+        }
+        .skill{
+            font-size: 45px;
+            border-bottom: 2px solid #000D16;
+            width:112px;
+            position: relative;
+            left:80px;
+            top:40px;
+           
+        }
+        .prog{
+            width:550px;
+            height: 200px;
+            border-radius: 20px;
+            border:1px solid #000D16;
+            position: relative;
+            top:80px;
+            left: 120px;
+            text-align: center;
+            
+        }
+        .web{
+            width:550px;
+            height: 250px;
+            border-radius: 20px;
+            border:1px solid #000D16;
+            position: relative;
+            top:120px;
+            left: 120px;
+             text-align: center;
+        }
+     
+
+     
+
+
+
+        
