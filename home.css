@@ -168,7 +168,7 @@
             width:112px;
             position: relative;
             left:80px;
-            top:40px;
+            top:35px;
            
         }
         .prog{
@@ -178,7 +178,7 @@
             border:1px solid #000D16;
             position: relative;
             top:80px;
-            left: 120px;
+            left: 140px;
             text-align: center;
             
         }
@@ -189,10 +189,52 @@
             border:1px solid #000D16;
             position: relative;
             top:120px;
-            left: 120px;
+            left: 140px;
              text-align: center;
         }
-     
+        .ui{
+             width:550px;
+            height: 200px;
+            border-radius: 20px;
+            border:1px solid #000D16;
+            position: relative;
+            left: 810px;
+            bottom:373px;
+             text-align: center;
+
+        }
+        .data{
+             
+             width:550px;
+            height: 250px;
+            border-radius: 20px;
+            border:1px solid #000D16;
+            position: relative;
+            left: 810px;
+            bottom:333px;
+             text-align: center;
+            
+        
+        }
+        .project{
+             background-color: white;
+            width:140px;
+            position: relative;
+            bottom:630px;
+            left:680px;
+            text-align: center;
+            padding:10px 0px;
+            font-size: 20px;
+            color: #000D16;
+            border: 2px solid #000D16;
+            border-radius: 20px;
+        }
+        .head{
+            font-size: 20px;
+            margin:15px;
+            font-weight:medium;
+            
+        }
 
      
 
