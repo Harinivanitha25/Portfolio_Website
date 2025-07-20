@@ -232,8 +232,58 @@
             margin:15px;
             font-weight:medium;
         }
+.project_title{
+           font-size: 40px;
+            border-bottom: 2px solid #000D16;
+            width:145px;
+            position: relative;
+            left:80px;
+            top:39px;
 
-     
+}
+.p1{
+    border: 1px solid #000D16;
+    width:600px;
+    height: 350px;
+    position: relative;
+    top:110px;
+    left:120px;
+    border-radius: 20px;
+}
+.p2{
+    border: 1px solid #000D16;
+    width:600px;
+    height: 350px;
+    position: relative;
+    bottom:242px;
+    left:790px;
+    border-radius: 20px;
+}
+.gitlink{
+    font-size: 25px;
+    position: relative;
+    bottom:180px;
+    left:120px;
+    width: 1000px;
+   
+}
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color:#014372;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: 210px;
+  right:5px;
+
+}
+.active, .dot:hover {
+  background-color:#000D16 ;
+} 
 
 
 
