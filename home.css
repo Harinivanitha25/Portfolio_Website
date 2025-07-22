@@ -232,7 +232,7 @@
             margin:15px;
             font-weight:medium;
         }
-.project_title{
+        .project_title{
            font-size: 40px;
             border-bottom: 2px solid #000D16;
             width:145px;
@@ -284,7 +284,45 @@
 .active, .dot:hover {
   background-color:#000D16 ;
 } 
+.contact_title{
+   font-size: 45px;
+            border-bottom: 2px solid #000D16;
+            width:152px;
+            position: relative;
+            left:80px;
+            top:60px;
 
+}
+.contact_p
+{
+    width: 750px;
+    height: 100px;
+    font-size: 27px;
+    position: relative;
+    top: 155px;
+    left:115px;
+    line-break: normal;
 
-
+}
+.illu2
+{
+    width:400px;
+    height:400px;
+    margin-left: 1020px;
+    position: relative;
+    bottom: 25px;
+   
+}
+.icon{
+    width:100px;
+    height: 100px;}
+.name{
+    height: 5px;
+    margin-left: 27px;
+}
+.contact_div{
+    width:500px;
+    display: flex;
+    justify-content: space-around;
+}
         
