@@ -112,19 +112,19 @@
         }
        
         .aboutme{
-            font-size: 60px;
-            width:276px;
+            font-size: 50px;
+            width:230px;
             border-bottom: 2px solid #000D16;
             color: #000D16;
             position: relative;
-            top:90px;
+            top:130px;
             left:100px;
         }
         .about1{
             width:650px;
             font-size: 23px;
             position:relative;
-            top:170px;
+            top:200px;
             left:170px;
             padding-bottom: 20px;
             color: #000D16;
@@ -168,7 +168,7 @@
               background-color: white;
             width:140px;
             position: relative;
-            bottom:470px;
+            bottom:420px;
             left:170px;
             text-align: center;
             padding:10px 0px;
@@ -176,69 +176,71 @@
             color: #000D16;
             border: 2px solid #000D16;
             border-radius: 20px;
-               box-shadow: 2px 2px 4px #000D16;
-
+            box-shadow: 2px 2px 4px #000D16;
+        }
+          .myskill:hover{
+            box-shadow: 0px 0px 0px ;
         }
         .skill{
-            font-size: 45px;
+            font-size: 40px;
             border-bottom: 2px solid #000D16;
-            width:112px;
+            width:99px;
             position: relative;
             left:80px;
-            top:35px;
+            top:115px;
            
         }
         .prog{
             width:550px;
-            height: 200px;
+            height: 150px;
             border-radius: 20px;
             border:1px solid #000D16;
             position: relative;
-            top:80px;
+            top:150px;
             left: 140px;
             text-align: center;
             
         }
         .web{
             width:550px;
-            height: 250px;
+            height: 200px;
             border-radius: 20px;
             border:1px solid #000D16;
             position: relative;
-            top:120px;
+            top:190px;
             left: 140px;
              text-align: center;
         }
         .ui{
              width:550px;
-            height: 200px;
+            height: 150px;
             border-radius: 20px;
             border:1px solid #000D16;
             position: relative;
-            left: 810px;
-            bottom:373px;
+            left: 820px;
+            bottom:204px;
              text-align: center;
 
         }
         .data{
              
              width:550px;
-            height: 250px;
+            height: 200px;
             border-radius: 20px;
             border:1px solid #000D16;
             position: relative;
-            left: 810px;
-            bottom:333px;
+            left: 820px;
+            bottom:163px;
              text-align: center;
             
         
         }
         .project{
-             background-color: white;
+            background-color: white;
             width:140px;
             position: relative;
-            bottom:630px;
-            left:680px;
+            bottom:410px;
+            left:685px;
             text-align: center;
             padding:10px 0px;
             font-size: 20px;
@@ -248,42 +250,44 @@
                box-shadow: 2px 2px 4px #000D16;
 
         }
+          .project:hover{
+            box-shadow: 0px 0px 0px ;
+        }
         .head{
             font-size: 22px;
             margin:15px;
             font-weight:medium;
         }
         .project_title{
-           font-size: 40px;
+           font-size: 35px;
             border-bottom: 2px solid #000D16;
-            width:145px;
+            width:128px;
             position: relative;
             left:80px;
-            top:39px;
-
-}
+            top:119px;
+         }
 .p1{
     border: 1px solid #000D16;
-    width:600px;
-    height: 350px;
+    width: 600px;
+    height: 320px;
     position: relative;
-    top:110px;
+    top:170px;
     left:120px;
     border-radius: 20px;
 }
 .p2{
     border: 1px solid #000D16;
     width:600px;
-    height: 350px;
+    height: 320px;
     position: relative;
-    bottom:242px;
+    bottom:152px;
     left:790px;
     border-radius: 20px;
 }
 .gitlink{
     font-size: 25px;
     position: relative;
-    bottom:180px;
+    bottom:100px;
     left:120px;
     width: 1000px;
    
@@ -298,7 +302,7 @@
   display: inline-block;
   transition: background-color 0.6s ease;
   position: relative;
-  bottom: 210px;
+  bottom: 130px;
   right:5px;
 
 }
@@ -306,22 +310,22 @@
   background-color:#000D16 ;
 } 
 .contact_title{
-   font-size: 45px;
+   font-size: 40px;
             border-bottom: 2px solid #000D16;
-            width:152px;
+            width:140px;
             position: relative;
             left:80px;
-            top:60px;
+            top:140px;
 
 }
 .contact_p
 {
-    width: 750px;
+    width: 690px;
     height: 100px;
-    font-size: 27px;
+    font-size: 26px;
     position: relative;
-    top: 135px;
-    left:115px;
+    top: 205px;
+    left:160px;
     line-break: normal;
 
 }
@@ -331,38 +335,43 @@
     height:400px;
     margin-left: 1020px;
     position: relative;
-    bottom: 25px;
+    bottom: 10px;
    
 }
 .icon{
-    width:100px;
-    height: 100px;}
-.name{
-    height: 5px;
-    margin-left: 27px;
+    width:80px;
+    height: 80px;
+        border-radius: 20px;
+}
+.icon:hover{
+    box-shadow: 0 0 10px #000D16; /* no-offset blur-radius spread-radius color */
+
 }
 .contact_div{
-    width:500px;
+    width:400px;
     display: flex;
     justify-content: space-around;
     position: relative;
-    left:120px;
-    bottom:175px;
+    left:150px;
+    bottom:110px;
 }
 .myresume{
     background-color: white;
             width:140px;
             position: relative;
        
-            bottom:240px;
-            left:670px;
+            bottom:173px;
+            left:640px;
             text-align: center;
-            padding:10px 10px;
-            font-size: 20px;
+            padding:6px 3px;
+            
             color: #000D16;
             border: 2px solid #000D16;
             border-radius: 20px;
                box-shadow: 2px 2px 4px #000D16;
 
 }
+  .myresume:hover{
+            box-shadow: 0px 0px 0px ;
+        }
         
