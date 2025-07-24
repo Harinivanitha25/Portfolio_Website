@@ -8,10 +8,11 @@
     
         .back-ground{
             background-image: url('Assets/home2.jpg');  
-             height: 100vh;
+             min-height: 100vh;
             background-position: start;
             background-repeat: no-repeat;
             background-size: cover;
+            
         }
         .back-ground2{
              background-image: url('Assets/About.jpg');
@@ -178,7 +179,7 @@
             border-radius: 20px;
             box-shadow: 2px 2px 4px #000D16;
         }
-          .myskill:hover{
+        .myskill:hover{
             box-shadow: 0px 0px 0px ;
         }
         .skill{
@@ -191,49 +192,46 @@
            
         }
         .prog{
-            width:550px;
-            height: 150px;
+            width:320px;
+            height: 180px;
             border-radius: 20px;
             border:1px solid #000D16;
             position: relative;
-            top:150px;
-            left: 140px;
+            top:170px;
+            left: 160px;
             text-align: center;
             
         }
         .web{
             width:550px;
+            height: 401px;
+            border-radius: 20px;
+            border:1px solid #000D16;
+            position: relative;
+            left: 804px;
+            bottom:394px;
+             text-align: center;
+        }
+        .ui{
+            width:278px;
+            height: 180px;
+            border-radius: 20px;
+            border:1px solid #000D16;
+            position: relative;
+            left: 500px;
+            bottom:213px;
+             text-align: center;
+
+        }
+        .data{
+            width:470px;
             height: 200px;
             border-radius: 20px;
             border:1px solid #000D16;
             position: relative;
             top:190px;
-            left: 140px;
-             text-align: center;
-        }
-        .ui{
-             width:550px;
-            height: 150px;
-            border-radius: 20px;
-            border:1px solid #000D16;
-            position: relative;
-            left: 820px;
-            bottom:204px;
-             text-align: center;
-
-        }
-        .data{
-             
-             width:550px;
-            height: 200px;
-            border-radius: 20px;
-            border:1px solid #000D16;
-            position: relative;
-            left: 820px;
-            bottom:163px;
-             text-align: center;
-            
-        
+            left: 235px;        
+             justify-items: center;
         }
         .head{
             font-size: 22px;
@@ -294,13 +292,12 @@
   background-color:#000D16 ;
 } 
 .contact_title{
-   font-size: 44px;
+             font-size: 44px;
             border-bottom: 2px solid #000D16;
             width:150px;
             position: relative;
             left:80px;
             top:140px;
-
 }
 .contact_p
 {
@@ -311,7 +308,6 @@
     top: 205px;
     left:160px;
     line-break: normal;
-
 }
 .illu2
 {
@@ -320,16 +316,14 @@
     margin-left: 1010px;
     position: relative;
     bottom: 10px;
-   
 }
 .icon{
     width:80px;
     height: 80px;
-        border-radius: 20px;
+    border-radius: 20px;
 }
 .icon:hover{
     box-shadow: 0 0 10px #000D16; /* no-offset blur-radius spread-radius color */
-
 }
 .contact_div{
     width:400px;
@@ -353,7 +347,6 @@
             border: 2px solid #000D16;
             border-radius: 20px;
                box-shadow: 2px 2px 4px #000D16;
-
 }
   .myresume:hover{
             box-shadow: 0px 0px 0px ;
