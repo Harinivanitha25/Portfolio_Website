@@ -235,24 +235,6 @@
             
         
         }
-        .project{
-            background-color: white;
-            width:140px;
-            position: relative;
-            bottom:410px;
-            left:685px;
-            text-align: center;
-            padding:10px 0px;
-            font-size: 20px;
-            color: #000D16;
-            border: 2px solid #000D16;
-            border-radius: 20px;
-               box-shadow: 2px 2px 4px #000D16;
-
-        }
-          .project:hover{
-            box-shadow: 0px 0px 0px ;
-        }
         .head{
             font-size: 22px;
             margin:15px;
@@ -266,7 +248,8 @@
             left:80px;
             top:119px;
          }
-.p1{
+        
+.p1,.p3{
     border: 1px solid #000D16;
     width: 600px;
     height: 320px;
@@ -275,7 +258,7 @@
     left:120px;
     border-radius: 20px;
 }
-.p2{
+.p2,.p4{
     border: 1px solid #000D16;
     width:600px;
     height: 320px;
@@ -284,6 +267,7 @@
     left:790px;
     border-radius: 20px;
 }
+
 .gitlink{
     font-size: 25px;
     position: relative;
@@ -310,9 +294,9 @@
   background-color:#000D16 ;
 } 
 .contact_title{
-   font-size: 40px;
+   font-size: 44px;
             border-bottom: 2px solid #000D16;
-            width:140px;
+            width:150px;
             position: relative;
             left:80px;
             top:140px;
@@ -320,7 +304,7 @@
 }
 .contact_p
 {
-    width: 690px;
+    width: 720px;
     height: 100px;
     font-size: 26px;
     position: relative;
@@ -333,7 +317,7 @@
 {
     width:400px;
     height:400px;
-    margin-left: 1020px;
+    margin-left: 1010px;
     position: relative;
     bottom: 10px;
    
@@ -352,7 +336,7 @@
     display: flex;
     justify-content: space-around;
     position: relative;
-    left:150px;
+    left:170px;
     bottom:110px;
 }
 .myresume{
@@ -360,8 +344,8 @@
             width:140px;
             position: relative;
        
-            bottom:173px;
-            left:640px;
+            bottom:179px;
+            left:630px;
             text-align: center;
             padding:6px 3px;
             
@@ -374,4 +358,5 @@
   .myresume:hover{
             box-shadow: 0px 0px 0px ;
         }
-        
+
+    
