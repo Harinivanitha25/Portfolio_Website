@@ -50,9 +50,8 @@
             height:50px;
             padding: 10px 20px 15px 90px;
             background-color: #C0E0E0;
-            border-bottom: 2px solid #000D16;
-            z-index: 10;
-            
+            border-bottom: 2px solid #000D16; 
+            z-index: 1;         
         }
         .Row{
            display:flex; 
@@ -200,6 +199,8 @@
             top:170px;
             left: 160px;
             text-align: center;
+             backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
             
         }
         .web{
@@ -211,6 +212,8 @@
             left: 804px;
             bottom:394px;
              text-align: center;
+              backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
         }
         .ui{
             width:278px;
@@ -221,6 +224,8 @@
             left: 500px;
             bottom:213px;
              text-align: center;
+              backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
 
         }
         .data{
@@ -232,6 +237,8 @@
             top:190px;
             left: 235px;        
              justify-items: center;
+              backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
         }
         .head{
             font-size: 22px;
@@ -239,12 +246,12 @@
             font-weight:medium;
         }
         .project_title{
-           font-size: 35px;
+           font-size: 40px;
             border-bottom: 2px solid #000D16;
-            width:128px;
+            width:143px;
             position: relative;
             left:80px;
-            top:119px;
+            top:115px;
          }
         
 .p1,.p3{
@@ -255,6 +262,9 @@
     top:170px;
     left:120px;
     border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+
 }
 .p2,.p4{
     border: 1px solid #000D16;
@@ -264,6 +274,8 @@
     bottom:152px;
     left:790px;
     border-radius: 20px;
+     backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
 }
 
 .gitlink{
@@ -351,5 +363,31 @@
   .myresume:hover{
             box-shadow: 0px 0px 0px ;
         }
-
-    
+    .p_n
+    {
+        font-size: 30px;
+        margin-left: 35px;
+        margin-top: 33px;
+    }
+   .p_d{
+       font-size: 17px;
+       width:520px;
+       margin-top: 15px;
+       margin-left: 35px;
+   }
+   .p_t{
+    font-size: 17px;
+     margin-left: 35px;
+     margin-top: 20px;
+   }
+   .p_l{
+     font-size: 17px;
+     margin-left: 35px;
+     margin-top: 25px;
+   }
+    .p_i{
+        width:60px;
+        position: relative;
+        left:89px;
+        bottom: 40px;
+    }
