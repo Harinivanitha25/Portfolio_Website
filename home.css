@@ -338,7 +338,7 @@
     box-shadow: 0 0 10px #000D16; /* no-offset blur-radius spread-radius color */
 }
 .contact_div{
-    width:400px;
+    width:600px;
     display: flex;
     justify-content: space-around;
     position: relative;
