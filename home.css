@@ -391,3 +391,107 @@
         left:89px;
         bottom: 40px;
     }
+
+    @media screen and (max-width: 768px) {
+  .navigate {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .Row {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .intro {
+    width: 90%;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    position: static;
+  }
+
+  .learnmore {
+    margin: 20px auto;
+    left: 0;
+    position: static;
+  }
+
+  .circle1,
+  .circle2,
+  .circle3,
+  .illu1,
+  .illu2 {
+    display: none;
+  }
+
+  .about1 {
+    width: 90%;
+    left: 0;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .web,
+  .data,
+  .ui,
+  .prog {
+    width: 90%;
+    margin: 20px auto;
+    left: 0;
+    position: static;
+  }
+
+  .p1,
+  .p2,
+  .p3,
+  .p4 {
+    width: 90%;
+    margin: 20px auto;
+    left: 0;
+    position: static;
+    height: auto;
+  }
+
+  .contact_div {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    gap: 15px;
+  }
+
+  .contact_p {
+    width: 90%;
+    font-size: 18px;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  .illu2 {
+    display: none;
+  }
+
+  .contact_title {
+    text-align: center;
+    left: 0;
+    margin: auto;
+  }
+
+  .gitlink {
+    width: 90%;
+    left: 0;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .dot {
+    margin-top: 10px;
+  }
+}
