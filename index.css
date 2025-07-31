@@ -55,7 +55,7 @@ body {
 .nav-links a:hover{
             text-underline-offset: 1px; 
         }
-/* Section styles */
+
 .section {
   height: 100vh;
   background-size: cover;
@@ -67,7 +67,7 @@ body {
   padding: 4rem;
 }
 
-/* Background images */
+
 .home {
   background-image: url('Assets/home2.jpg');
 }
@@ -141,7 +141,7 @@ body {
   transform: translateY(0px);
 }
 
-/* Subtitle line */
+
 .subtitle {
   font-size: clamp(1.2rem, 2.5vw, 1.7rem);
   margin-top: 1rem;
@@ -645,7 +645,7 @@ body {
 
 }
 
-/* Mobile Responsive Styles */
+
 @media screen and (max-width: 1024px) {
   .contact_p {
     width: 80%;
