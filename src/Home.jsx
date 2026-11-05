@@ -135,7 +135,7 @@ export default function Home() {
           <div className="home-line"></div>
           <div className="home-text">
             <h1>Hi.<br />I’m Harini.</h1>
-            <p>I am into Web Development and Data Science.</p>
+            <p>I am into AI and Web Development.</p>
             <a href="#about">Learn More</a>
           </div>
         </div>
@@ -146,10 +146,10 @@ export default function Home() {
         <div className="about-left">
           <h2>About Me</h2>
           <p>
-            As a Computer Science Engineering student with a strong passion
-            for Data Science and Full Stack Development, I combine my love
-            for drawing and problem solving skills to build interactive
-            websites.
+            As a Computer Science Engineering Graduate with a strong passion
+            for AI, Data Science and Full Stack Development, I combine my love
+            for problem solving skills to build interactive
+            websites and intergrate AI to develop real world products.
           <br></br>
           <br></br>
             I am continuously exploring new ways to enhance my knowledge
