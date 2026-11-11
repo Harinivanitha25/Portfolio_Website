@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harini Portfolio</title>
+  <meta name="description" content="Portfolio of Harini S V, a Computer Science Engineering graduate into AI, Data Science and Full Stack Web Development.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Inika:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Icon sprite: defined once, reused everywhere (no image files) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-github" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm2.2 6.5v8.3h2.6V9.5H6.2Zm1.3-4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm3.2 4v8.3h2.6v-4.2c0-1.1.5-1.8 1.4-1.8.9 0 1.3.6 1.3 1.8v4.2h2.6v-4.9c0-2.2-1.2-3.5-3-3.5-1.2 0-1.9.6-2.3 1.2V9.5h-2.6Z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2C.5 9.1.5 12 .5 12s0 2.9.5 4.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-4.8.5-4.8s0-2.9-.5-4.8ZM9.7 15.2V8.8l5.6 3.2-5.6 3.2Z"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path fill="currentColor" d="M14 3h7v7h-2V6.4l-8.3 8.3-1.4-1.4L17.6 5H14V3ZM5 5h6v2H5v12h12v-6h2v8H3V5h2Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M2 5h20v14H2V5Zm2.4 2L12 12.7 19.6 7H4.4ZM4 9.2V17h16V9.2l-8 6-8-6Z"/></symbol>
+    <symbol id="i-leetcode" viewBox="0 0 24 24"><path fill="currentColor" d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0Zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382H10.617Z"/></symbol>
+    <symbol id="i-hackerrank" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.5 3 6.75v10.5l9 5.25 9-5.25V6.75L12 1.5Zm-3 5.6h1.7v3.6h2.6V7.1H15v9.8h-1.7v-4.5h-2.6v4.5H9V7.1Z"/></symbol>
+  </svg>
+
+  <header class="nav">
+    <a class="logo" href="#home">Harini</a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Hi.<br>I’m Harini.</h1>
+        <p>I am into AI and Web Development.</p>
+        <a class="btn" href="#about">Learn More</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section split">
+      <div class="split-text">
+        <h2>About Me</h2>
+        <p>As a Computer Science Engineering Graduate with a strong passion for AI, Data Science and Full Stack Development,<br> I combine my love for problem solving skills to build interactive websites and integrate AI to develop real world products.</p>
+        <p>I am continuously exploring new ways to enhance my knowledge and contribute to impactful projects.</p>
+        <a class="btn" href="#skills">My skills</a>
+      </div>
+      <img class="art" src="images/illu1.png" alt="Illustration of a person working at a laptop" loading="lazy" decoding="async" onerror="this.remove()">
+    </section>
+
+    <!-- SKILLS (typographic list, no images) -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li class="skill-row">
+          <span class="num">01</span>
+          <h3>Programming Languages</h3>
+          <ul class="chips"><li>Python</li><li>Java</li><li>C</li></ul>
+        </li>
+        <li class="skill-row">
+          <span class="num">02</span>
+          <h3>AI</h3>
+          <ul class="chips"><li>Generative AI</li><li>LLM</li><li>Machine Learning</li><li>AI Agent</li></ul>
+        </li>
+        <li class="skill-row">
+          <span class="num">03</span>
+          <h3>Web Development</h3>
+          <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li></ul>
+        </li>
+        <li class="skill-row">
+          <span class="num">04</span>
+          <h3>Data Analysis &amp; Visualization</h3>
+          <ul class="chips"><li>Excel</li><li>Power BI</li><li>SQL</li></ul>
+        </li>
+       
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="carousel" tabindex="0" aria-label="Projects, scroll sideways">
+  
+          <article class="card project">
+          <img class="card-bg" src="images/projects/ai-video.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+          <h3>AI Video Generator</h3>
+          <p>Built a desktop app for my YouTube Channel that turns a topic and a duration into a complete short video: an AI-written scene script and video metadata, AI images, voiceover and word-synced captions.</p>
+          <p><strong>Tools:</strong> Python, Flet, Gemini API, Microsoft Text-to-Speech, Whisper, YouTube API</p>
+          <div class="project-links">
+            <a href="https://github.com/Harinivanitha25/Quick_Wisdom_AI_Video_Generator" target="_blank" rel="noopener" aria-label="AI Video Generator on GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <img class="card-bg" src="images/projects/constellation.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+          <h3>Constellation (Vibe-Coded)</h3>
+          <p>Built a local-first personal knowledge graph that shows study notes as an interactive star map. AI embeddings automatically link related topics, and a rich-text notepad and offline PWA support.</p>
+          <p><strong>Tools:</strong> React, Tiptap, Zustand, Dexie.js (IndexedDB), Transformers.js (MiniLM embeddings), PWA</p>
+          <div class="project-links">
+            <a href="https://github.com/Harinivanitha25/Constellation_Study_Graph" target="_blank" rel="noopener" aria-label="Constellation on GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+            <!-- If it is deployed, add a live link: -->
+           <a href="https://harinivanitha25.github.io/Constellation_Study_Graph/" target="_blank" rel="noopener" aria-label="Open Constellation"><svg class="ic"><use href="#i-link"/></svg></a> 
+          </div>
+        </article>
+
+      
+
+
+        <article class="card project">
+          <img class="card-bg" src="images/projects/f1.jpg" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+          <h3>F1 Team Performance Dashboard</h3>
+          <p>Created an interactive dashboard to analyze Formula 1 team performance of 2024 season. The dashboard visualizes key metrics such as race results, constructor standings and points to help compare teams and players.</p>
+          <p><strong>Tools:</strong> Power BI, Excel, SQL</p>
+          <div class="project-links">
+            <a href="https://github.com/Harinivanitha25/F1-2024-Team-Dashboard" target="_blank" rel="noopener" aria-label="F1 dashboard on GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <img class="card-bg" src="images/projects/cement.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+          <h3>Carbon Footprint Calculator</h3>
+          <p>Developed a machine learning–based carbon footprint calculator to estimate CO₂ emissions generated during cement production.</p>
+          <p><strong>Tools:</strong> Python, Machine Learning (Random Forest Regression), Streamlit</p>
+          <div class="project-links">
+            <a href="https://github.com/Harinivanitha25/Cement_Carbon_Emission_Predictor" target="_blank" rel="noopener" aria-label="Carbon calculator on GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <img class="card-bg" src="images/projects/quick_wisdom.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+          <h3>YouTube Channel Analysis</h3>
+          <p>Recently, I have started a YouTube Channel named “Quick Wisdom” which creates AI educational, motivational and historic videos. Findings: 0.53% engagement rate, 50 subscribers from shorts.</p>
+          <p><strong>Tools:</strong> YouTube Analytics, Power BI</p>
+          <div class="project-links">
+            <a href="https://github.com/Harinivanitha25/Quick_Wisdom" target="_blank" rel="noopener" aria-label="YouTube analysis on GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+            <a href="https://www.youtube.com/@Quick_Wisdom25" target="_blank" rel="noopener" aria-label="Quick Wisdom YouTube channel"><svg class="ic"><use href="#i-youtube"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <img class="card-bg" src="images/projects/Guess_the_number.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+          <h3>Guess_The_Number</h3>
+          <p>Long time ago, I have done the “Guess the Number” game in Python which I wanted to develop into a website. Here! It is. Click the link below to play it.</p>
+          <p><strong>Tools:</strong> HTML, CSS, React JS, GitHub Pages</p>
+          <div class="project-links">
+            <a href="https://github.com/Harinivanitha25/Guess_the_Number" target="_blank" rel="noopener" aria-label="Guess the Number on GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+            <a href="https://harinivanitha25.github.io/Guess_the_Number/" target="_blank" rel="noopener" aria-label="Play Guess the Number"><svg class="ic"><use href="#i-link"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <img class="card-bg" src="images/projects/sql.webp" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+          <h3>Missing Money Matters - SQL</h3>
+          <p>Investigated the Missing Money problem given by the WSDA Music using my SQL skills to get the prime suspect who had theft the amount. This project is given in the SQL Essential Training.</p>
+          <p><strong>Tools:</strong> SQL, Database</p>
+          <div class="project-links">
+            <a href="https://github.com/Harinivanitha25/WSDA_Music" target="_blank" rel="noopener" aria-label="WSDA Music project on GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+            <a href="https://www.linkedin.com/learning/sql-essential-training-20685933" target="_blank" rel="noopener" aria-label="SQL Essential Training course"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="carousel-nav">
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section split">
+      <div class="split-text">
+        <h2>Contact</h2>
+        <p>Feel free to reach out for collaboration, any other professional opportunities via any given contact.<br> I am always open to meaningful conversation that lead to impactful work.</p>
+        <ul class="socials">
+          <li><a href="mailto:harini.vanitha25@gmail.com" aria-label="Email"><svg class="ic"><use href="#i-mail"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/harini-s-v-430b90262/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a></li>
+          <li><a href="https://github.com/Harinivanitha25" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ic"><use href="#i-github"/></svg></a></li>
+          <li><a href="https://www.hackerrank.com/harini_vanitha25" target="_blank" rel="noopener" aria-label="HackerRank"><svg class="ic"><use href="#i-hackerrank"/></svg></a></li>
+          <li><a href="https://leetcode.com/u/harini_s_v_25/" target="_blank" rel="noopener" aria-label="LeetCode"><svg class="ic"><use href="#i-leetcode"/></svg></a></li>
+        </ul>
+      </div>
+      <img class="art" src="images/illu2.png" alt="Illustration of a person presenting charts" loading="lazy" decoding="async" onerror="this.remove()">
+    </section>
+
+  </main>
+
+  <footer class="footer">© <span id="year">2026</span> Harini</footer>
+
+</body>
+</html>
