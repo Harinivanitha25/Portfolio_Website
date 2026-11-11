@@ -1,4 +1,4 @@
 # Portfolio Website
 
-This is my personal portfolio rebuilt using React (Vite).
+This is my personal portfolio.
 Deployed using GitHub Pages.
